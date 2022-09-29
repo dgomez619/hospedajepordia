@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reaponsive CSS Cards</title>
+  
+
+<!-- bootstrap  -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+<!-- google font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+
+<!-- css styles overwrite -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+  <!--Navbar with logo  -->
+
+<nav class="navbar bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Hospedaje por Temporada</a>
+
+<!--Icons  -->
+
+<div>   
+      
+      <a href="https://www.airbnb.com.co/users/show/1577669" target="_blank">
+          <i class="fa-brands fa-airbnb fa-2x fa-pull-left"></i>
+      </a>    
+  
+
+      <a href="https://www.instagram.com/hospedajepordias/" target="_blank">
+      <i class="fa-brands fa-instagram fa-2x fa-pull-left "></i>
+      </a>
+
+      <a aria-label="Chat on WhatsApp" target="_blank" href="https://wa.me/18327263814"> 
+          <i class="fa-brands fa-whatsapp fa-2x fa-pull-left"></i> 
+      </a>
+      
+      
+</div>
+
+  </div>
+</nav>
+
+<!-- navigation bar -->
+
+<nav class="navbar sticky-top navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="./index.html"><i class="fa-solid fa-house"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Propiedades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Galeria</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contactanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre nosotros</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<br/>
+
+<!-- slider carousel MAIN -->
+
+<div class="container-lg">
+
+  <div class="blog-slider">
+    <div class="blog-slider__wrp swiper-wrapper">   
+  
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          <img src="./imgs/orchilla/entrada.png" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <span class="blog-slider__code">MEDICO, TRABAJO Y PLAYAS.</span>
+          <div class="blog-slider__title" translate="no">Lecheria</div>
+          <div class="blog-slider__text">Ubicacion muy facil para desplazarce hacia toda la ciudad. A cinco minutos caminando al CC Plaza Mayor. Todo tipo de comercios cercanos y vias accecibles para el transporte a todas las areas. A 10 minutos en carro a las playas Lecheria y el morro.</div>
+          <a href="./pages/lecheria/lecheria.html" class="blog-slider__button">Ver Más</a>
+        </div>
+      </div>
+      
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          <img src="./imgs/4094/643b36ff_original.webp" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <span class="blog-slider__code">COMODO APARTAMENTO EN NAGUANAGUA.</span>
+          <div class="blog-slider__title" translate="no">Velencia</div>
+          <div class="blog-slider__text">Apartamento Ejecutivo en la zona mas céntrica de Valencia. Facil acceso a centros comerciales, deportivos, bancos, clínicas y a las vías principales de la ciudad.</div>
+          <a href="./pages/Valencia/valencia.html" class="blog-slider__button">Ver Más</a>
+        </div>
+      </div>
+      
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          <img src="./imgs/pto-marina/piscina.png" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <span class="blog-slider__code">TU SITIO IDEAL, SALUD, TRABAJO Y DESCANSO.</span>
+          <div class="blog-slider__title" translate="no">Puerto la Cruz</div>
+          <div class="blog-slider__text">Tu familia estará cerca de todo cuando te quedes en este alojamiento céntrico.
+            Facil acceso al transporte publico y comercios.
+            Sitio ideal para descanso, trabajo y compartir en familia.</div>
+          <a href="./pages/pto-c/bahia.html" class="blog-slider__button">Ver Más</a>
+        </div>
+      </div>
+      
+    </div>
+    <div class="blog-slider__pagination"></div>
+  </div>
+
+</div>
+  
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
