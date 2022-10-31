@@ -41,7 +41,7 @@ body {
 }
 
 .action.active span{
-    transform: rotate(135deg);
+    transform: rotate(360deg);
 }
 
 .action ul{
